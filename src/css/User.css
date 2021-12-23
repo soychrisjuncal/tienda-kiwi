@@ -1,0 +1,44 @@
+.login{
+    margin-right: 24px;
+}
+
+.btnSign{
+    border-radius: 100px;
+    color: rgba(255, 255, 255, 0.9) !important;
+  
+
+  
+  background: #ffffff;
+  border: 2px solid;
+  border-color: #000000;
+  position: relative;
+}
+
+.btnSign:hover{
+    color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0 4px 10px rgb(94, 94, 94);
+    transition: all 0.2s ease;
+}
+#content > .modal-content {
+    border-radius: 20px;
+}
+
+#content2 > .modal-content {
+    z-index: 9999;
+}
+
+.btnInput{
+    border-radius: 100px;
+    color: black;
+  
+
+  
+  background: #ffffff;
+  border: 2px solid;
+  border-color: #000000;
+  position: relative;
+}
+
+.iconLogout {
+    cursor: pointer;
+}

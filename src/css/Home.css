@@ -1,0 +1,154 @@
+
+.titulo {
+   width: 100%;
+   
+    font-size: 7rem;
+    position: absolute;
+    top: 250px;
+    text-align: center;
+    color: white;
+ 
+}
+
+
+.imagenBN {
+    filter: grayscale(1);
+    transition-property: filter;
+    transition-duration: 1s;   
+}
+
+.imagenBN:hover {
+    filter: grayscale(0);
+    transition-property: filter;
+    transition-duration: 0.5s;   
+}
+
+.cajaTitulo {
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 0.5s;   
+}
+
+.cajaTitulo:hover {
+    opacity: 100%;
+}
+
+.imagen1{
+ padding: 20px;
+ margin-top: 100px;
+ border-radius: 100px;
+  
+}
+
+.bloque1{
+
+   display: flex;
+   flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+  
+}
+
+.textImg1 {
+    width: 100%;
+    padding: 20px;
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+  text-align: center;  
+}
+.textImg1>h2 {
+    font-size: 70px;
+    margin-top: 50px;
+
+ 
+    
+   
+}
+.textImg1>p {
+    font-size: 30px;
+   
+   color: rgb(107, 106, 106);
+
+ 
+    
+   
+}
+
+.textImg1>button {
+    font-size: 20px;
+    width: 20%;
+    margin: 0 auto;
+    border-radius: 30px;
+      
+   
+}
+
+.bloque2{
+   
+        display: flex;
+      
+        flex-wrap: wrap;
+        justify-content: center;
+      
+    
+}
+
+.imagen2{
+ width: 100%;
+  margin: 80px 0px 0;
+    border-radius: 100px;
+    justify-self: center;
+
+     
+   }
+
+   .textImg2 {
+    width: 100%;
+    padding: 20px;
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+  text-align: center;  
+}
+
+.textImg2>h2 {
+    font-size: 60px;
+   
+
+ 
+    
+   
+}
+.textImg2>p {
+    font-size: 30px;
+   
+   color: rgb(107, 106, 106);
+
+ 
+    
+   
+}
+
+.textImg2>button {
+    font-size: 20px;
+    width: 20%;
+    margin: 0 auto;
+    border-radius: 30px;
+      
+   
+}
+
+.textImg2>.parrafo2 {
+    font-size: 25px;
+}
+@media screen and (max-width: 767px) {
+
+    *{
+
+   
+        overflow: auto;
+    }
+    
+    
+}

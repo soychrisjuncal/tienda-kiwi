@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.pepe {
+    background-color: #abbf27;
+    text-align: center;
+}
+
+ul > li {
+    list-style: none;
+    padding: 0 30px;
+    
+}
+
+ul > li > a  {
+    text-decoration: none;
+    color: black;
+    font-size: 1.8rem;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 0 !important;
+}
+
+.imagenCopy {
+    width: 25%;
+}
+
+.btnFb, .btnIg {
+    text-decoration: none;
+    color: black;
+    
+
+
+}
+
+#ig,#fb {
+    font-size: 40px;
+}
+
+.copy, .redes, .copyFirma{
+    width: 33%;
+}
+

@@ -1,0 +1,49 @@
+.contenedor-padre{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-content: center;
+    margin: 100px 0;
+}
+
+.item-info-producto {
+align-self: center;
+   
+}
+
+.titulo {
+    font-size: 20px;
+    color: black;
+}
+.description{
+    font-size: 25px;
+}
+
+.precio{
+    font-size: 20px;
+}
+
+.imgDetail {
+    width: 75%;
+    justify-self: center;
+    border-radius: 50px;
+}
+
+.contenedor-imagen {
+    display: flex;
+    justify-content: center;
+}
+
+.precioFinalDetail{
+    font-size: 20px;
+}
+
+.precioListaDetail {
+    font-size: 15px;
+    color: red;
+}
+
+.cuotasDetail {
+    font-size: 35px;
+}
+

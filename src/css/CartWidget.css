@@ -1,0 +1,27 @@
+.color {
+    color: black;
+}
+
+#carrito {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    
+}
+
+#circle {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    border-radius: 3rem;
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
+
+
+}
+
+#circle>a{
+    text-decoration: none;
+}
+

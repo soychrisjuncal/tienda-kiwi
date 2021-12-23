@@ -1,0 +1,60 @@
+.contenedor-producto{
+    width: 75%;
+   
+}
+.contenedorBtn {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.btnComprar {
+    width: 100%;
+   text-align: center;
+    border-radius: 20px;
+    background: rgb(0, 0, 0);
+    font-size: 20px;
+    color: white;
+    padding: 0 20px;
+
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: black;
+ 
+}
+
+
+
+.item-info-producto {
+    
+    text-align: center;
+}
+
+.producto-info:hover{
+    border-radius: 16px 16px 16px 16px;
+    box-shadow: 5px 12px 45px -11px rgba(64,59,59,0.78);
+    transition: all 0.2s ease;
+
+}
+
+.precioLista {
+    color: red;
+}
+
+.precioFinal{
+    font-size: 20px;
+}
+
+.borderR {
+    border-radius: 40px;
+}
+
+.cuotas {
+    font-size: 30px;
+}
