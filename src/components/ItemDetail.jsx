@@ -22,13 +22,13 @@ const ItemDetail = ({
   const [itemStock, setItemStock] = useState(0);
 
   const onAddCart = (qty, reStock) => {
-    alert("You have selected " + qty + " items.");
+    
     setItemCount(qty);
 
     if (reStock > 5) {
       alert("Has superado la cantidad de stock disponible");
     }
-    alert("you rest " + reStock);
+    
 
     setItemStock(reStock);
     test.addToCart(id, img, title, offerPrice, reStock, qty, currentUser);
